@@ -1,21 +1,47 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial;
-    padding: 5px;
-    background: white;
+    padding: 10px;
+    background: #f1f1f1;
 }
 
 /* Head set up */
 .header {
-    font-size: 30px;
-    background-color: deepskyblue;
-    text-align: center;   
-    padding: 8px;
+   padding: 30px;
+   text-align: center;
+   background: white;
+    
+}
+
+.header h1{
+    font-size: 50px;
 }
 
 .header p {
-    color: white;
-    text-align: left;    
+    color: black;
+    text-align: left; 
+    font-size: 18px; 
+    
+}
+
+/* Navigation bar */
+topnav {
+    overflow: hidden;
+    background-color: blue;
    
-    
-    
+}
+
+/* Links style */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
 }
