@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    padding: 5px;
+    background: white;
+}
+
+/* Head set up */
+.header {
+    font-size: 30px;
+    background-color: deepskyblue;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header p {
+    color: white;
+    text-align: left;    
+    margin: 5px;
+    
+    
+}
